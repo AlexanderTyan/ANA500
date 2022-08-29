@@ -34,7 +34,7 @@
 - *Measures of Location* - used to get a sense of a typical value for a 
   variable:
   - *Percentiles*:
-    - Find value $i$ which corresponds to the $k$'th percentile: i = \frac{k}{100} (n+1)$
+    - Find value $i$ which corresponds to the $k$'th percentile: $i = \frac{k}{100} (n+1)$
     - E.g. 50th percentile value for 101 observations: $i = \frac{50}{100} (101+1)$
 
   
