@@ -17,7 +17,7 @@ damn pleases.” -- Josiah Stamp, 1st Baron Stamp
   - **GIGO** - Garbage In - Garbage Out
 - 2 Main Branches of Statistics:
   - **Descriptive Statistics** - describe the characteristics of a 
-    *particular dataset
+    *particular dataset*.
     - e.g. average amount of debt held by 100 U.S. 
       college students
   - **Inferential Statistics** - uses a *sample* of data to draw conclusions 
