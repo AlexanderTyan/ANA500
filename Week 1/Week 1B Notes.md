@@ -54,6 +54,6 @@
   - *(Arithmetic) Mean* - most common measure of central tendency.
     - $\bar{x}$ - typically denotes *Sample Mean*
     - $\Sigma$ - summation. 
-    - *Sample Mean* $= \bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i = 1$ 
+    - *Sample Mean* $= \bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i$ 
 
   
