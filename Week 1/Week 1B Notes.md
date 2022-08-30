@@ -57,7 +57,7 @@
     - $\Sigma$ - summation. 
     - **Sample Mean**: $$\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i$$
     - Note: other means exist, e.g. *Geometric Mean*, *Harmonic Mean*.
-    - The mean can be a misleading measure of central tendency when data are 
+    - The *Mean* can be a misleading measure of central tendency when data are 
       skewed.
       - If there is a strong skew to the data, 
         **Median** is a preferred measure of the central tendency over the 
@@ -67,4 +67,24 @@
       - **Symmetric Shape** - no skew.
   - Relationship between *Mean* and *Median*:
     - If $\bar{x} \gt Med =>$ positive skew.
-    - If $\bar{x} \lt Med =>$ negative skew. 
+    - If $\bar{x} \lt Med =>$ negative skew.
+- **Sample Variance** - the spread of the sample data.
+  - $$s^2 = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2$$
+    - $(n-1)$: Bessel's correction; allows for a more reliable estimate of 
+      the variance
+  - Measures how far observations typically fall from the mean; higher 
+    variance => more spread.
+  - **Standard Deviation**: $s = \sqrt{s^2}$
+    - Better units for interpretation than *Variance* because *Variance* is 
+      has a square in it.
+    - For most variables, most values are within 2 *Standard Deviations* of 
+      the mean.
+    - More precisely, **Chebyshev's Inequality**: $(1 - \frac{1}{k^2})$ of a 
+      variable's values (by proportion) must be within $k$ *Standard 
+      Deviations* from the mean, for $k \gt 1$; regardless of distribution.
+    - Difficult to compare variables measured in different units => 
+      **Standardize** variables to *Standard Deviation* units to compare:
+      - Subtract the mean from each value and divide by *Standard Deviation*:
+        - $Z = \frac{x - \bar{x}}{s}$
+        - A *Standardized Variable* has a *Mean* of $0$ and a *Standard 
+          Deviation* of $1$.  
