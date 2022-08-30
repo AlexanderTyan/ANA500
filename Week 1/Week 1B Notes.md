@@ -97,7 +97,7 @@
     - **Population Mean**: $\mu$ 
     - **Sample Variance**: $s^2$
     - **Population Variance**: $\sigma^2$
-  - Remember: *Random Sampling* makes our statistics (e.g. $\bar{x}$) *Random 
+  - Remember: *Random Sampling* makes our *Statistics* (e.g. $\bar{x}$) *Random 
     Variables*
   - **Standard Error** - a *Statistic*'s *Standard Deviation*.
     - A *Statistic*'s variation can be calculated.
