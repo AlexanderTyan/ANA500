@@ -87,4 +87,17 @@
       - Subtract the mean from each value and divide by *Standard Deviation*:
         - $Z = \frac{x - \bar{x}}{s}$
         - A *Standardized Variable* has a *Mean* of $0$ and a *Standard 
-          Deviation* of $1$.  
+          Deviation* of $1$.
+        - Variable standardization will be used later in *Statistical Inference*.
+- Important: distinguish between a *Population Parameter* (a quantity of 
+  interest) and a *Sample Statistic* (which we calculate and observe to do 
+  inference about a *Population Parameter*).
+  - Common notation to denote the differences:
+    - **Sample Mean**: $\bar{x}$ 
+    - **Population Mean**: $\mu$ 
+    - **Sample Variance**: $s^2$
+    - **Population Variance**: $\sigma^2$
+  - Remember: *Random Sampling* makes our statistics (e.g. $\bar{x}$) *Random 
+    Variables*
+  - **Standard Error** - a *Statistic*'s *Standard Deviation*.
+    - A *Statistic*'s variation can be calculated.
