@@ -49,11 +49,22 @@
     - Can also show potential outliers.
 - **Measures of Central Tendency** - helpful to determine what values are 
   central or typical for data.
-  - **Median** - 
-  - **Mode**
+  - **Median** - the 50th percentile; if even number of data points, is the 
+    mean between two middle values (when values are sorted in ascending order). 
+  - **Mode** - the most frequently occuring value.
   - **(Arithmetic) Mean** - most common measure of central tendency.
     - $\bar{x}$ - typically denotes *Sample Mean*
     - $\Sigma$ - summation. 
-    - **Sample Mean**: $$\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i$$ 
-
-  
+    - **Sample Mean**: $$\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i$$
+    - Note: other means exist, e.g. *Geometric Mean*, *Harmonic Mean*.
+    - The mean can be a misleading measure of central tendency when data are 
+      skewed.
+      - If there is a strong skew to the data, 
+        **Median** is a preferred measure of the central tendency over the 
+        **Mean**; not as strongly influenced by the tails.
+      - **Positive Skew** - i.e. right skew, the data has a long right tail.
+      - **Negative Skew** - i.e. left skew, the data has a long left tail.
+      - **Symmetric Shape** - no skew.
+  - Relationship between *Mean* and *Median*:
+    - If $\bar{x} \gt Med =>$ positive skew.
+    - If $\bar{x} \lt Med =>$ negative skew. 
