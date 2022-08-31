@@ -37,10 +37,10 @@
 - **Probability Rules**:
   - “and”: an outcome is in event $A$ and $B$ if it is in $A$ and $B$ at the 
     same time.
-  - $A = {1, 2, 3, 4, 5, 6}$.
-  - $B = { 4, 5, 6, 7, 8}$.
-  - $A$ and $B$ $= A \cap B = {4, 5, 6}$.
+  - $A = \set{1, 2, 3, 4, 5, 6}$.
+  - $B = \set{4, 5, 6, 7, 8}$.
+  - $A$ and $B$ $= A \cap B = \set{4, 5, 6}$.
   - “or”: an outcome is in event $A$ or $B$ if it is in $A$ or $B$.
-  - A or B $= A \cup B = {1, 2, 3, 4, 5, 6, 7, 8}$
+  - A or B $= A \cup B = \set{1, 2, 3, 4, 5, 6, 7, 8}$
   - The complement of event $A$ is denoted $A'$
   - $P(A’) = 1 – P(A)$ 
