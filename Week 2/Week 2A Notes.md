@@ -24,7 +24,7 @@
       - is repeated and conducted under controlled conditions.
     - **Outcome** - result of a single experiment; not known until the coin 
       is flipped; there's a chance involved.
-    - **Sample Space** ($S$) ($\neq$ *Sample* from a *Population*) - all 
+    - **Sample Space** ( $S$ ) ( $\neq$ *Sample* from a *Population*) - all 
       possible outcomes; e.g. $S = {H, T}$
     - **Event** - any combination of outcomes.
       - Denoted with upper-case letters. E.g. $A$ - event of Heads, then $P(A)$ - *Probability* of Heads.
