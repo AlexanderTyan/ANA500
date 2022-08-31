@@ -10,4 +10,4 @@
 - *Probability Theory* provides the mathematics of this randomness.
 - **Probability** - fraction of occurrences an event occurs over many 
   repeated trials. 
-  - E.g. $\mathbb{P}$
+  - E.g. $\probP(A)$
