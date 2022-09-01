@@ -44,8 +44,7 @@
     - A or B $= A \cup B = \set{1, 2, 3, 4, 5, 6, 7, 8}$
   - The complement of event $A$ is denoted $A'$
     - $\mathbb{P}(A’) = 1 – \mathbb{P}(A)$
-    - **Conditional probability**: $\mathbb{P}(A|B) = \frac{\mathbb{P}(A \cap B)
-      }{\mathbb{P}(B)}$
+    - **Conditional probability**: $\mathbb{P}(A|B) = \frac{\mathbb{P}(A \cap B)}{\mathbb{P}(B)}$
       - A *Conditional Probability* reduces the sample size
         - The $\mathbb{P}(A)$ in the sample space of $B$, rather than $S$
       - Two events are **Mutually Exclusive** if $\mathbb{P}(A \cap B) = 0$
@@ -53,6 +52,7 @@
         - If two events are *Independent*, then $\mathbb{P}(A \cap B) = \mathbb{P}(A) * \mathbb{P}(B)$
       - **Multiplication Rule**: $\mathbb{P}(A \cap B) = \mathbb{P}(B) * \mathbb{P}(A | B)$
       - **Addition Rule**: $\mathbb{P}(A|B) = \mathbb{P}(A) + \mathbb{P}(B) - \mathbb{P}(A \cap B)$
+      - 
       - 
 
 
