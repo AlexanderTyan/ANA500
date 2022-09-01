@@ -28,7 +28,7 @@
       possible outcomes; e.g. $S = \set{H, T}$.
     - **Event** - any combination of outcomes.
       - Denoted with upper-case letters. E.g. $A$ - event of Heads, then $P(A)$ - *Probability* of Heads.
-      - $0 \leq P(A) \leq 1$
+      - $0 \leq \mathbb{P}(A) \leq 1$
       - **Law of Large Numbers** - as the number of trials increases, the 
         *empirical* fraction of occurrences gets closer and closer to the 
         theoretical probability of occurrence; e.g. for an unbiased coin, 
@@ -37,10 +37,24 @@
 - **Probability Rules**:
   - “and”: an outcome is in event $A$ and $B$ if it is in $A$ and $B$ at the 
     same time.
-  - $A = \set{1, 2, 3, 4, 5, 6}$.
-  - $B = \set{4, 5, 6, 7, 8}$.
-  - $A$ and $B$ $= A \cap B = \set{4, 5, 6}$.
+    - $A = \set{1, 2, 3, 4, 5, 6}$.
+    - $B = \set{4, 5, 6, 7, 8}$.
+    - $A$ and $B$ $= A \cap B = \set{4, 5, 6}$.
   - “or”: an outcome is in event $A$ or $B$ if it is in $A$ or $B$.
-  - A or B $= A \cup B = \set{1, 2, 3, 4, 5, 6, 7, 8}$
+    - A or B $= A \cup B = \set{1, 2, 3, 4, 5, 6, 7, 8}$
   - The complement of event $A$ is denoted $A'$
-  - $P(A’) = 1 – P(A)$ 
+    - $\mathbb{P}(A’) = 1 – \mathbb{P}(A)$
+    - **Conditional probability**: $\mathbb{P}(A|B) = \frac{\mathbb{P}(A \cap B)
+      }{\mathbb{P}(B)}$
+      - A *Conditional Probability* reduces the sample size
+        - The $\mathbb{P}(A)$ in the sample space of $B$, rather than $S$
+      - Two events are **Mutually Exclusive** if $\mathbb{P}(A \cap B) = 0$
+      - Two events are **Independent** if $\mathbb{P}(A|B) = \mathbb{P}(A)$
+        - If two events are *Independent*, then $\mathbb{P}(A \cap B) = \mathbb{P}(A) * \mathbb{P}(B)$
+      - **Multiplication Rule**: $\mathbb{P}(A \cap B) = \mathbb{P}(B) * \mathbb{P}(A | B)$
+      - **Addition Rule**: $\mathbb{P}(A|B) = \mathbb{P}(A) + \mathbb{P}(B) - \mathbb{P}(A \cap B)$
+      - 
+
+
+
+
