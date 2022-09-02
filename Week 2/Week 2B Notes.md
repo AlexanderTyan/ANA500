@@ -14,17 +14,17 @@
     - Equal to the area under the CDF to the left of the value of interest.
 - **Uniform Distribution (Continuous)**
   - All outcomes are equally likely
-- $X \sim U(a, b)$  
+  - $X \sim U(a, b)$  
   - **PDF**:
 
-$$
-\begin{equation} 
-  f(x) = \begin{cases} 
-    \frac{1}{b - a}, & \text{for $x \in (a, b)$} \\ 
-    0, & \text{otherwise}
-  \end{cases}
-\end{equation} 
-$$
+    $$
+    \begin{equation} 
+      f(x) = \begin{cases} 
+        \frac{1}{b - a}, & \text{for $x \in (a, b)$} \\ 
+        0, & \text{otherwise}
+      \end{cases}
+    \end{equation} 
+    $$
 
   - **Mean** $= \frac{1}{2} (a + b)$
   - **Variance** $= \frac{1}{12} (b - a)^2$
