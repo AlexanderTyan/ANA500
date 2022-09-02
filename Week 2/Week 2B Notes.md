@@ -19,7 +19,7 @@
 $$
 \begin{equation} 
   f(x) = \begin{cases} 
-    \frac{1}{b - a}, & \text{for} x \in (a, b) \\ 
+    \frac{1}{b - a}, & \text{for $x \in (a, b)$} \\ 
     0, & \text{otherwise}
   \end{cases}
 \end{equation} 
