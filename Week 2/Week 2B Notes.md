@@ -52,13 +52,16 @@
   - We can use one distribution, the standard normal distribution, to make
     probability statements about any normally distributed variable.
   - Remember, a variable is standardized by subtracting the mean from each
-    value and dividing by the standard deviation.
+    value and dividing by the standard deviation. The units of measurement 
+    become **Standard Deviations**. For a *Normal Distribution*, these 
+    standardized values are called **Z-Scores**.
+  - If $X \sim N(\mu, \sigma^2)$, then $Z = \frac{X - \mu}{sigma}$, where:
   - $Z \sim (0,1)$
-    - **PDF**:
+  - **PDF**:
 
-      $$
-      f(x) = \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2} x^{2}}
-      $$
+    $$
+    f(x) = \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2} x^{2}}
+    $$
 
   - **Mean** $= 0$
   - **Variance** $=$ *Standard Deviation* $= 1$
