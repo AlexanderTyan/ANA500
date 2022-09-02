@@ -1,7 +1,14 @@
 # Notes
 ## Week 2
 ### Module 1 Week 2B
-#### Probability and Random Variables
-- *Probability Theory* - important in linking *Samples* to underlying 
-  *Population* of Interest => important for *Statisticsl Inference*.
-##### Probability
+#### Continuous Random Variables and the Normal Distribution
+##### Random Variables
+- A **Continuous Random Variable** can take on any value in an interval
+- The probability of any single value is *zero*
+- **Probability Density Function (PDF)**
+  - The probability of a random variable takes on a value between $a$ and $b$
+  - Equal to the area under the *PDF* between $a$ and $b$
+- **Cumulative Distribution Function (CDF)**
+  - The probability a random variable will take on a value equal to or less than
+  some value.
+  - Equal to the area under the CDF to the left of the value of interest. 
