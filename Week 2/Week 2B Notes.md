@@ -14,7 +14,8 @@
     - Equal to the area under the CDF to the left of the value of interest.
 - **Uniform Distribution (Continuous)**
   - All outcomes are equally likely
-  - $X \sim U(a, b)$
+  - $X \sim U(a, b)$  
+
 $$
 \begin{equation} 
   f(x) = \begin{cases} 
