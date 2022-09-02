@@ -51,7 +51,7 @@
     - Two events are **Independent** if $\mathbb{P}(A|B) = \mathbb{P}(A)$
       - If two events are *Independent*, then $\mathbb{P}(A \cap B) = \mathbb{P}(A) * \mathbb{P}(B)$ (Follows from *Conditional Probability*)
     - **Multiplication Rule**: $\mathbb{P}(A \cap B) = \mathbb{P}(B) * \mathbb{P}(A | B)$ (Follows from *Conditional Probability*)
-    - **Addition Rule**: $\mathbb{P}(A|B) = \mathbb{P}(A) + \mathbb{P}(B) - \mathbb{P}(A \cap B)$
+    - **Addition Rule**: $\mathbb{P}(A \cup B) = \mathbb{P}(A) + \mathbb{P}(B) - \mathbb{P}(A \cap B)$
 
 ##### Probability
 - A **Random Variable** provides a numerical description of the outcomes
