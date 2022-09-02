@@ -53,7 +53,7 @@
     - **Multiplication Rule**: $\mathbb{P}(A \cap B) = \mathbb{P}(B) * \mathbb{P}(A | B)$ (Follows from *Conditional Probability*)
     - **Addition Rule**: $\mathbb{P}(A \cup B) = \mathbb{P}(A) + \mathbb{P}(B) - \mathbb{P}(A \cap B)$
 
-##### Probability
+##### Random Variables
 - A **Random Variable** provides a numerical description of the outcomes
 of an experiment.
 - A **Discrete Random Variable** has outcomes that are countable.
@@ -80,7 +80,25 @@ of an experiment.
   - **Law of Large Numbers**: as the number of observations increases the
     difference between the empirical mean ($\bar{x}$) and the theoretical 
     mean ($\mu$) gets infinitely smaller.
-  - **Spread**: **Variance** $= \mathbb{E}[(X - \mu)^2] = \sum [f(x) * (x - \mu)^2] = \sigma ^ 2$
+  - **Spread**: **Variance** (i.e. *Second Moment*) $= \mathbb{E}[(X - \mu)
+    ^2] = \sum [f(x) * (x - \mu)^2] = \sigma ^ 2$
+    - Because square units are hard to interpret, *Standard Deviation* is 
+      often used as a measure of *Spread* instead.
+  - **Binomial distribution** (a *Discrete Distribution*)
+    - $n$ independent trials
+    - Each trial has the outcome of either "success” or “failure”
+    - The probability of “success” is $p$ and the probability of “failure” 
+      is $q$
+    - The number of "successes" is denoted $k$
+    - Each trial is repeated under identical conditions
+    - The outcomes of a binomial experiment *fit* a binomial distribution
+    - $X ~ B(n, p)$: "*Random Variable* $X$ is distributed according to a 
+      *Binomial Distribution* with parameters $n$ and $p$"
+    - $f(x) = \binom{n}{k} * p^k * q^(n-k)$, where $q = 1 - p$ and $\binom{n}{k} = \frac{n!}{k!(n-k)!}$
+    - *Mean* $= np$
+    - *Variance* $= npq$
+    - A *Binomial* experiment with a single trial is known as a **Bernoulli 
+      Trial** 
 
 
 
