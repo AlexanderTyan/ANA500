@@ -78,28 +78,37 @@ of an experiment.
   distribution
   - Center: **Mean** $=$ **Expected Value** $= \mathop{\mathbb{E}}\[X\] = \sum f(x) * x = \mu$
   - **Law of Large Numbers**: as the number of observations increases the
-    difference between the empirical mean ($\bar{x}$) and the theoretical 
-    mean ($\mu$) gets infinitely smaller.
-  - **Spread**: **Variance** (i.e. *Second Moment*) $= \mathbb{E}[(X - \mu)
-    ^2] = \sum [f(x) * (x - \mu)^2] = \sigma ^ 2$
+    difference between the empirical mean ( $\bar{x}$ ) and the theoretical 
+    mean ( $\mu$ ) gets infinitely smaller.
+  - **Spread**: **Variance** (i.e. *Second Moment*) $= \mathbb{E}[(X - \mu)^2] = \sum [f(x) * (x - \mu)^2] = \sigma ^ 2$
     - Because square units are hard to interpret, *Standard Deviation* is 
       often used as a measure of *Spread* instead.
-  - **Binomial distribution** (a *Discrete Distribution*)
-    - $n$ independent trials
-    - Each trial has the outcome of either "success” or “failure”
-    - The probability of “success” is $p$ and the probability of “failure” 
-      is $q$
-    - The number of "successes" is denoted $k$
-    - Each trial is repeated under identical conditions
-    - The outcomes of a binomial experiment *fit* a binomial distribution
-    - $X ~ B(n, p)$: "*Random Variable* $X$ is distributed according to a 
-      *Binomial Distribution* with parameters $n$ and $p$"
-    - $f(x) = \binom{n}{k} * p^k * q^{(n-k)}$, where $q = 1 - p$ and $\binom{n}{k} = \frac{n!}{k!(n-k)!}$
-    - *Mean* $= np$
-    - *Variance* $= npq$
-    - A *Binomial* experiment with a single trial is known as a **Bernoulli 
-      Trial** 
-
+- **Binomial distribution** (a *Discrete Distribution*)
+  - $n$ independent trials
+  - Each trial has the outcome of either "success” or “failure”
+  - The probability of “success” is $p$ and the probability of “failure” 
+    is $q$
+  - The number of "successes" is denoted $k$
+  - Each trial is repeated under identical conditions
+  - The outcomes of a binomial experiment *fit* a binomial distribution
+  - $X ~ B(n, p)$: "*Random Variable* $X$ is distributed according to a 
+    *Binomial Distribution* with parameters $n$ and $p$"
+  - $f(x) = \binom{n}{k} p^k q^{(n-k)}$, where $q = 1 - p$ and $\binom{n}{k} = \frac{n!}{k!(n-k)!}$
+  - *Mean* $= np$
+  - *Variance* $= npq$
+  - A *Binomial* experiment with a *single* trial is known as a **Bernoulli 
+    Trial**
+- **Poisson Distribution** (a *Discrete Distribution*)s
+  - Often used to model the number of occurrences of an event over a specified time
+    interval or space.
+  - Known mean rate of occurrence is the same for any two intervals of equal length
+  - Occurrence of event in one interval is independent of occurrence in any other
+  - $x$: number of occurrences in an interval
+  - $\lambda$: average mean rate of occurrence
+  - $X ~ Pois(\lambda)$
+  - $f(x) = \frac{\lambda^x e^{-\lambda}}{x!}$
+  - *Mean* $= \lambda$
+  - *Variance* $= \lambda$
 
 
 
