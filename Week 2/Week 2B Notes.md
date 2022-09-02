@@ -15,6 +15,7 @@
 - **Uniform Distribution (Continuous)**
   - All outcomes are equally likely
 - $X \sim U(a, b)$  
+
 $$
 \begin{equation} 
   f(x) = \begin{cases} 
