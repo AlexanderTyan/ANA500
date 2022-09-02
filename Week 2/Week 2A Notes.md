@@ -77,10 +77,10 @@ of an experiment.
 - The center and spread are important characteristics of a probability
   distribution
   - Center: **Mean** $=$ **Expected Value** $= \mathop{\mathbb{E}}\[x\] = \sum f(x) * x = \mu$
-    • Law of large numbers: as the number of observations increases the
-    difference between the empirical mean �̅ and the theoretical mean
-    (�) gets infinitely smaller.
-    • Spread: variance = �[ � − �)' = ∑ � � ∗ (� − �)' = �'
+  - **Law of Large Numbers**: as the number of observations increases the
+    difference between the empirical mean ($\bar{x}$) and the theoretical 
+    mean ($\mu$) gets infinitely smaller.
+  - **Spread**: **Variance** $= \mathbb{E}(x - \mu)^2 = \sum f(x) * (x - \mu)^2 = \sigma ^ 2$
 
 
 
