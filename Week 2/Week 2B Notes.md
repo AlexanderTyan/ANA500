@@ -15,7 +15,7 @@
 - **Uniform Distribution (Continuous)**
   - All outcomes are equally likely
   - $X \sim U(a, b)$
-  - $$
+  $$
   \begin{equation} 
     f(x) = \begin{cases} 
       \frac{1}{b - a}, & \text{for} x \in (a, b) \\ 
