@@ -30,10 +30,10 @@
   - **Variance** $= \frac{1}{12} (b - a)^2$
 
 - **Normal Distribution**
-- By far, the most well-known and widely used probability distribution
-- Symmetric
-- **Mean** $=$ **Median** $=$ **Mode**
-- $X \sim N(\mu, \sigma^2)$
+  - By far, the most well-known and widely used probability distribution
+  - Symmetric
+  - **Mean** $=$ **Median** $=$ **Mode**
+  - $X \sim N(\mu, \sigma^2)$
   - **PDF**:
     
     $$
@@ -41,4 +41,24 @@
     $$
 
   - **Mean** $= \mu$
+    - Determines the center.
   - **Variance** $= \sigma^2$
+    - Determines the spread.
+  - Can be fully characterized by just *Mean* and *Variance*
+
+- **Standard Normal Distribution**
+  - Normal distribution of standardized values - for easier comparisons when 
+    original *Random Variables* are measured in different units.
+  - We can use one distribution, the standard normal distribution, to make
+    probability statements about any normally distributed variable.
+  - Remember, a variable is standardized by subtracting the mean from each
+    value and dividing by the standard deviation.
+  - $Z \sim (0,1)$
+    - **PDF**:
+
+      $$
+      f(x) = \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{2} x^{2}}
+      $$
+
+  - **Mean** $= 0$
+  - **Variance** $=$ *Standard Deviation* $= 1$
