@@ -7,8 +7,19 @@
 - The probability of any single value is *zero*
 - **Probability Density Function (PDF)**
   - The probability of a random variable takes on a value between $a$ and $b$
-  - Equal to the area under the *PDF* between $a$ and $b$
+    - Equal to the area under the *PDF* between $a$ and $b$ (via *Integration*)
 - **Cumulative Distribution Function (CDF)**
   - The probability a random variable will take on a value equal to or less than
   some value.
-  - Equal to the area under the CDF to the left of the value of interest. 
+    - Equal to the area under the CDF to the left of the value of interest.
+- **Uniform Distribution (Continuous)**
+  - All outcomes are equally likely
+  - $X \sim U(a, b)$
+  - $f(x) = \frac{1}{b - a}$ for $x \in (a, b)$
+  - $$\begin{equation}
+    f(x)=\begin{cases}
+    1, & \text{if $x<0$}.\\
+    0, & \text{otherwise}.
+    \end{cases}
+    \end{equation}$$
+  
