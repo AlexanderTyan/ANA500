@@ -94,7 +94,7 @@ of an experiment.
     - The outcomes of a binomial experiment *fit* a binomial distribution
     - $X ~ B(n, p)$: "*Random Variable* $X$ is distributed according to a 
       *Binomial Distribution* with parameters $n$ and $p$"
-    - $f(x) = \binom{n}{k} * p^k * q^(n-k)$, where $q = 1 - p$ and $\binom{n}{k} = \frac{n!}{k!(n-k)!}$
+    - $f(x) = \binom{n}{k} * p^k * q^{(n-k)}$, where $q = 1 - p$ and $\binom{n}{k} = \frac{n!}{k!(n-k)!}$
     - *Mean* $= np$
     - *Variance* $= npq$
     - A *Binomial* experiment with a single trial is known as a **Bernoulli 
