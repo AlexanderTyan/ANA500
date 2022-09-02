@@ -35,8 +35,10 @@
 - **Mean** $=$ **Median** $=$ **Mode**
 - $X \sim N(\mu, \sigma^2)$
   - **PDF**:
+    
     $$
     f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{left( -\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^{2}})
     $$
+
   • Mean = �
   • Variance = �%
