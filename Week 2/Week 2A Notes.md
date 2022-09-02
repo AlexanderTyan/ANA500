@@ -58,8 +58,8 @@
 of an experiment.
 - A **Discrete Random Variable** has outcomes that are countable.
   - E.g. Number of children, number of computer crashes
-- Uppercase letters denote *Random Variables* ($X$ and $Y$)
-- Lowercase letters denote the outcome ($x$ and $y$)
+- Uppercase letters denote *Random Variables* ( $X$ and $Y$ )
+- Lowercase letters denote the outcome ( $x$ and $y$ )
   - E.g. we roll a six-sided die and it comes up 4
   - $X =$ rolling a six-sided die
   - $x = 4$
