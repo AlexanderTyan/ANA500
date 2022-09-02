@@ -30,18 +30,13 @@
   - **Variance** $= \frac{1}{12} (b - a)^2$
 
 - **Normal Distribution**
-• By far, the most well-known and widely used probability distribution
-• Symmetric
-• Mean = median = mode
-• �~�(�, �%)
-• � � =
-!
-/ %0
-�#(
-"
-!
-)(
-#$%
-& )!
-• Mean = �
-• Variance = �%
+- By far, the most well-known and widely used probability distribution
+- Symmetric
+- **Mean** $=$ **Median** $=$ **Mode**
+- $X \sim N(\mu, \sigma^2)$
+  - **PDF**:
+    $$
+    f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{left( -\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^{2}})
+    $$
+  • Mean = �
+  • Variance = �%
