@@ -55,8 +55,10 @@
     value and dividing by the standard deviation. The units of measurement 
     become **Standard Deviations**. For a *Normal Distribution*, these 
     standardized values are called **Z-Scores**.
-  - If $X \sim N(\mu, \sigma^2)$, then $Z = \frac{X - \mu}{sigma}$, where:
+  - If $X \sim N(\mu, \sigma^2)$, then $Z = \frac{X - \mu}{\sigma}$, where:
   - $Z \sim (0,1)$
+  - Standardized version $Z$ be used to calculate probabilities associated with 
+    any *Normal Random Variable*.
   - **PDF**:
 
     $$
@@ -65,3 +67,12 @@
 
   - **Mean** $= 0$
   - **Variance** $=$ *Standard Deviation* $= 1$
+  - The nice properties of the normal distribution facilitate calculating
+    probabilities.
+  - Suppose $X \sim N(10, 4)$
+  - What is the probability that $X$ is greater than $14$?
+    - $\mathbb{P}(X > 14)$
+  - What is the probability that $X$ is less than $8$?
+    - $\mathbb{P}(X < 8)$
+  - What is the probability that $X$ is in between $8$ and $14$?
+    - $\mathbb{P}(8 < X < 14)$
