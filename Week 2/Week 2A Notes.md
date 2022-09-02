@@ -80,7 +80,7 @@ of an experiment.
   - **Law of Large Numbers**: as the number of observations increases the
     difference between the empirical mean ($\bar{x}$) and the theoretical 
     mean ($\mu$) gets infinitely smaller.
-  - **Spread**: **Variance** $= \mathbb{E}(x - \mu)^2 = \sum f(x) * (x - \mu)^2 = \sigma ^ 2$
+  - **Spread**: **Variance** $= \mathbb{E}[(x - \mu)^2] = \sum f(x) * (x - \mu)^2 = \sigma ^ 2$
 
 
 
