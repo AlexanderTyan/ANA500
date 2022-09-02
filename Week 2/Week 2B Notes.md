@@ -25,4 +25,6 @@ $$
 \end{equation} 
 $$
 
+- **Mean** $= \frac{1}{2} (a + b)$
+- **Variance** $= \frac{1}{12} (b - a)^2$
   
