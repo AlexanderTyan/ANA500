@@ -44,16 +44,44 @@
     - A or B $= A \cup B = \set{1, 2, 3, 4, 5, 6, 7, 8}$
   - The complement of event $A$ is denoted $A'$
     - $\mathbb{P}(A’) = 1 – \mathbb{P}(A)$
-    - **Conditional probability**: $\mathbb{P}(A|B) = \frac{\mathbb{P}(A \cap B)}{\mathbb{P}(B)}$
-      - A *Conditional Probability* reduces the sample size
-        - The $\mathbb{P}(A)$ in the sample space of $B$, rather than $S$
-      - Two events are **Mutually Exclusive** if $\mathbb{P}(A \cap B) = 0$
-      - Two events are **Independent** if $\mathbb{P}(A|B) = \mathbb{P}(A)$
-        - If two events are *Independent*, then $\mathbb{P}(A \cap B) = \mathbb{P}(A) * \mathbb{P}(B)$
-      - **Multiplication Rule**: $\mathbb{P}(A \cap B) = \mathbb{P}(B) * \mathbb{P}(A | B)$
-      - **Addition Rule**: $\mathbb{P}(A|B) = \mathbb{P}(A) + \mathbb{P}(B) - \mathbb{P}(A \cap B)$
-      - 
-      - 
+  - **Conditional probability**: $\mathbb{P}(A|B) = \frac{\mathbb{P}(A \cap B)}{\mathbb{P}(B)}$
+    - A *Conditional Probability* reduces the sample size
+      - The $\mathbb{P}(A)$ in the sample space of $B$, rather than $S$
+    - Two events are **Mutually Exclusive** if $\mathbb{P}(A \cap B) = 0$
+    - Two events are **Independent** if $\mathbb{P}(A|B) = \mathbb{P}(A)$
+      - If two events are *Independent*, then $\mathbb{P}(A \cap B) = \mathbb{P}(A) * \mathbb{P}(B)$ (Follows from *Conditional Probability*)
+    - **Multiplication Rule**: $\mathbb{P}(A \cap B) = \mathbb{P}(B) * \mathbb{P}(A | B)$ (Follows from *Conditional Probability*)
+    - **Addition Rule**: $\mathbb{P}(A|B) = \mathbb{P}(A) + \mathbb{P}(B) - \mathbb{P}(A \cap B)$
+
+##### Probability
+- A **Random Variable** provides a numerical description of the outcomes
+of an experiment.
+- A **Discrete Random Variable** has outcomes that are countable.
+  - E.g. Number of children, number of computer crashes
+- Uppercase letters denote *Random Variables* ($X$ and $Y$)
+- Lowercase letters denote the outcome ($x$ and $y$)
+  - E.g. we roll a six-sided die and it comes up 4
+  - $X =$ rolling a six-sided die
+  - $x = 4$
+- A **Probability Distribution Function** describes how the probabilities
+  are assigned over all outcomes of a discrete random variable.
+  - We use $f(x)$ to denote a *Probability Distribution Function*
+    - E.g. if the probability of rolling a 4 with a six-sided die is 1/6
+  - $f(4) = \frac{1}{6}$
+  - **Uniform Probability Distribution Function** - all outcomes are equally 
+    likely.
+    - $f(x) = \frac{1}{n}$, if $n$ is the number of possible outcomes.
+  - Rules:
+    - $0 \leq f(x) \leq 1$
+    - $\sum f(x) = 1$
+- The center and spread are important characteristics of a probability
+  distribution
+  - Center: **Mean** $=$ **Expected Value** $= \mathop{\mathbb{E}}\[x\] = \sum f(x) * x = \mu$
+    • Law of large numbers: as the number of observations increases the
+    difference between the empirical mean �̅ and the theoretical mean
+    (�) gets infinitely smaller.
+    • Spread: variance = �[ � − �)' = ∑ � � ∗ (� − �)' = �'
+
 
 
 
