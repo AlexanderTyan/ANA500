@@ -15,6 +15,7 @@
 - **Uniform Distribution (Continuous)**
   - All outcomes are equally likely
 - $X \sim U(a, b)$  
+  - **PDF**:
 
 $$
 \begin{equation} 
@@ -25,6 +26,22 @@ $$
 \end{equation} 
 $$
 
-- **Mean** $= \frac{1}{2} (a + b)$
-- **Variance** $= \frac{1}{12} (b - a)^2$
-  
+  - **Mean** $= \frac{1}{2} (a + b)$
+  - **Variance** $= \frac{1}{12} (b - a)^2$
+
+- **Normal Distribution**
+• By far, the most well-known and widely used probability distribution
+• Symmetric
+• Mean = median = mode
+• �~�(�, �%)
+• � � =
+!
+/ %0
+�#(
+"
+!
+)(
+#$%
+& )!
+• Mean = �
+• Variance = �%
