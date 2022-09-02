@@ -91,7 +91,7 @@ of an experiment.
   - The number of "successes" is denoted $k$
   - Each trial is repeated under identical conditions
   - The outcomes of a binomial experiment *fit* a binomial distribution
-  - $X ~ B(n, p)$: "*Random Variable* $X$ is distributed according to a 
+  - $X \sim B(n, p)$: "*Random Variable* $X$ is distributed according to a 
     *Binomial Distribution* with parameters $n$ and $p$"
   - $f(x) = \binom{n}{k} p^k q^{(n-k)}$, where $q = 1 - p$ and $\binom{n}{k} = \frac{n!}{k!(n-k)!}$
   - *Mean* $= np$
@@ -105,7 +105,7 @@ of an experiment.
   - Occurrence of event in one interval is independent of occurrence in any other
   - $x$: number of occurrences in an interval
   - $\lambda$: average mean rate of occurrence
-  - $X ~ Pois(\lambda)$
+  - $X \sim Pois(\lambda)$
   - $f(x) = \frac{\lambda^x e^{-\lambda}}{x!}$
   - *Mean* $= \lambda$
   - *Variance* $= \lambda$
