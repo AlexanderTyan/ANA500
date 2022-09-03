@@ -68,11 +68,24 @@
   - **Mean** $= 0$
   - **Variance** $=$ *Standard Deviation* $= 1$
   - The nice properties of the normal distribution facilitate calculating
-    probabilities.
+    probabilities facilitates calculating probabilities. E.g.:
   - Suppose $X \sim N(10, 4)$
   - What is the probability that $X$ is greater than $14$?
     - $\mathbb{P}(X > 14)$
+    - Convert to standard normal distribution:
+      - $X = 14$ corresponds to $Z = \frac{(14-10)}{2} = 2$
+        - $14$ is $2$ *Standard Deviations* *above* the mean of $X$
+      - Using a statistical table for the *Standard Normal Distribution* (or a
+          computer) we find:
+        - The area to the right of $Z = 2 \text{(i.e. to the right of X = 14)} = 0.0228$
   - What is the probability that $X$ is less than $8$?
     - $\mathbb{P}(X < 8)$
+    - Convert to standard normal distribution:
+      - $X = 8$ corresponds to $Z= \frac{(8-10)}{2} = -1$
+        - $8$ is $1$ standard deviation *below* the mean of $X$
+      - Using a statistical table for the standard normal distribution (or a
+          computer) we find:
+        - The area to the left of $Z = -1 \text{(i.e. to the left of X = 8)} = 0.1587$
   - What is the probability that $X$ is in between $8$ and $14$?
     - $\mathbb{P}(8 < X < 14)$
+      - The area in between $Z$-scores $-1$ and 2 = 1 – (0.0228 + 0.1587) = 0.8185$
