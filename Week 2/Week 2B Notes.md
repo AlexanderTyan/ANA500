@@ -82,8 +82,8 @@
     - $\mathbb{P}(X < 8)$
     - Convert to standard normal distribution:
       - $X = 8$ corresponds to $Z= \frac{(8-10)}{2} = -1$
-        - $8$ is $1$ standard deviation *below* the mean of $X$
-      - Using a statistical table for the standard normal distribution (or a
+        - $8$ is $1$ *Standard Deviations* *below* the mean of $X$
+      - Using a statistical table for the *Standard Normal Distribution* (or a
           computer) we find:
         - The area to the left of $Z = -1 \text{(i.e. to the left of X = 8)} = 0.1587$
   - What is the probability that $X$ is in between $8$ and $14$?
