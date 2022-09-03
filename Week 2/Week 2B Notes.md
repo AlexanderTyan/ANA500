@@ -88,4 +88,4 @@
         - The area to the left of $Z = -1 \text{(i.e. to the left of X = 8)} = 0.1587$
   - What is the probability that $X$ is in between $8$ and $14$?
     - $\mathbb{P}(8 < X < 14)$
-      - The area in between $Z$-scores $-1$ and 2 = 1 – (0.0228 + 0.1587) = 0.8185$
+      - The area in between $Z$-scores $-1$ and $2 = 1 – (0.0228 + 0.1587) = 0.8185$
