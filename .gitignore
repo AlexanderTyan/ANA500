@@ -4,3 +4,5 @@ Module_*_Week_*_gretl_Problem_Set_*.*
 *.png
 *.ipynb
 fake_homework_submission.pdf
+!CLT.png
+!CLT2.png

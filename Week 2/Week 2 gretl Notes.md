@@ -178,3 +178,40 @@ Generated scalar iqbtw90_120 = 0.656296
 Example: `Tools` -> `Plot a curve` -> `formula`: `5 + 10 * x - 0.05 * x**2`; `x minimum`: `0`; `x range`: `200` -> `Ok`
 
 ### Central Limit Theorem
+- A *Mean* of *Random Samples* is *Normally Distributed*
+1. Create a set of 10 observations drawn from a *Uniform Distribution* with $a = 0$ and $b = 1$
+1. Calculate the sample average.
+2. Do this 1000 times.
+3. Plot all 1000 sample averages. According to the *CLT*, this will be *Normal*.
+
+```bash
+nulldata 10  # Create a dataset of 10 observations
+set seed 123456  # Allows to replicate the same random draws
+loop 1000 --progressive --quiet  # --quiet keeps the output in the background
+  series yt = uniform()  # No parameters, because a = 0 and b = 1 by default; draws 10 observations from a Uniform Distribution
+  scalar ybar = mean(yt)  # Calculate the mean of the 10 observations, and store in a ybar variable
+  store clt.gdt ybar  # Stores variable ybar in a dataset file called clt.gdt
+endloop
+
+open clt.gdt  # Open the saved file
+freq ybar --plot=display --normal  # plot the means; --normal overlays a normal curve
+```
+- Output: 
+![CLT](img/CLT.png)
+
+1. Same thing, but drawing 1000 observations from *Uniform Distribution* (and save to a different filename):
+```bash
+nulldata 1000  # Create a dataset of 10 observations
+set seed 123456  # Allows to replicate the same random draws
+loop 1000 --progressive --quiet  # --quiet keeps the output in the background
+  series yt = uniform()  # No parameters, because a = 0 and b = 1 by default; draws 10 observations from a Uniform Distribution
+  scalar ybar = mean(yt)  # Calculate the mean of the 10 observations, and store in a ybar variable
+  store clt2.gdt ybar  # Stores variable ybar in a dataset file called clt.gdt
+endloop
+
+open clt2.gdt  # Open the saved file
+freq ybar --plot=display --normal  # plot the means; --normal overlays a normal curve
+```
+- Output: 
+![CLT](img/CLT2.png)
+  - Even closer to a *Normal Distribution*, but even with `10` observations, it was already pretty close.
