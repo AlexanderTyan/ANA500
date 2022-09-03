@@ -29,6 +29,7 @@
   - **Mean** $= \frac{1}{2} (a + b)$
   - **Variance** $= \frac{1}{12} (b - a)^2$
 
+##### **Normal Distribution**
 - **Normal Distribution**
   - By far, the most well-known and widely used probability distribution
   - Symmetric
@@ -66,7 +67,8 @@
     $$
 
   - **Mean** $= 0$
-  - **Variance** $=$ *Standard Deviation* $= 1$
+  - **Variance** $=$ *Standard Deviation* $= 1$  
+
   - The nice properties of the normal distribution facilitate calculating
     probabilities facilitates calculating probabilities. E.g.:
   - Suppose $X \sim N(10, 4)$
@@ -75,17 +77,36 @@
     - Convert to standard normal distribution:
       - $X = 14$ corresponds to $Z = \frac{(14-10)}{2} = 2$
         - $14$ is $2$ *Standard Deviations* *above* the mean of $X$
-      - Using a statistical table for the *Standard Normal Distribution* (or a
-          computer) we find:
-        - The area to the right of $Z = 2 \text{(i.e. to the right of X = 14)} = 0.0228$
+    - Using a statistical table for the *Standard Normal Distribution* (or a
+        computer) we find:
+      - The area to the right of $Z = 2 \text{(i.e. to the right of X = 14)} = 0.0228$
   - What is the probability that $X$ is less than $8$?
     - $\mathbb{P}(X < 8)$
     - Convert to standard normal distribution:
       - $X = 8$ corresponds to $Z= \frac{(8-10)}{2} = -1$
         - $8$ is $1$ *Standard Deviations* *below* the mean of $X$
-      - Using a statistical table for the *Standard Normal Distribution* (or a
-          computer) we find:
-        - The area to the left of $Z = -1 \text{(i.e. to the left of X = 8)} = 0.1587$
+    - Using a statistical table for the *Standard Normal Distribution* (or a
+        computer) we find:
+      - The area to the left of $Z = -1 \text{(i.e. to the left of X = 8)} = 0.1587$
   - What is the probability that $X$ is in between $8$ and $14$?
     - $\mathbb{P}(8 < X < 14)$
       - The area in between $Z$-scores $-1$ and $2 = 1 – (0.0228 + 0.1587) = 0.8185$
+
+##### Central limit theorem (CLT)
+- The **Central Limit Theorem (CLT)** is one reason why the *Normal 
+  Distribution* is so important in statistical methods.
+- Roughly, the *CLT* states that for a random variable $X$ with a mean ( 
+  $\mu$ ) and finite variance ( $\sigma^2$ ) the distribution of the sum of X 
+  and the mean of X are normally distributed.
+  - $\sum X \sim N(n\mu, n\sigma^2)$
+  - $\sum \bar{X} \sim N(\mu, \frac{\sigma^2}{n})$
+- Remember, random *Sampling* makes *Statistics* *Random Variables*.
+  - *Random Variables* are described with a *Probability Distribution*
+  - The *Probability Distribution* for a *Statistic* is called its **Sampling 
+    Distribution**
+    - *Sampling Distribution* is what links an unobservable *Population* to 
+      the observed *Sample* of data 
+    - Many *Statistics* involve sums, making the *CLT* an important tool for
+        characterizing the *Sampling Distribution*
+- The *CLT* holds (if *n* is large enough) even if *X* is *not* normally 
+  distributed.
