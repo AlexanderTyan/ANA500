@@ -3,8 +3,8 @@
 ### Module 1 Week 2A
 #### Probability and Random Variables
 - *Probability Theory* - important in linking *Samples* to underlying 
-  *Population* of Interest => important for *Statistical Inference*.
-##### Probability
+  *Population* of Interest => important for *Statistical Inference*.  
+##### Probability  
 - Values taken on by the variables are not known until they are observed. 
 - Data is composed of observations of underlying *Random Variables*.
 - *Probability Theory* provides the mathematics of this randomness.
