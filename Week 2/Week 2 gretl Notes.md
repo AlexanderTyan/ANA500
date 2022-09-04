@@ -9,7 +9,7 @@ Open up a new script editor: `File` -> `Script files` -> `New script` ->
 - the $n$ trials are independent
 - $X \sim B(n, p)$
 1. We have a class of 50 students. They can either pass or fail an
-  exam. Probability of passing is 0.53:
+  exam. Probability of passing is 0.63:
 ```
 # Probability of exactly 25 students passing the exam:
 # `b` - is binomial distribution
