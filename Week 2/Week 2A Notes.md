@@ -1,10 +1,26 @@
+---
+header-includes:
+  - \usepackage{enumitem}
+  - \setlistdepth{20}
+  - \renewlist{itemize}{itemize}{20}
+  - \renewlist{enumerate}{enumerate}{20}
+  - \setlist[itemize]{label=$\cdot$}
+  - \setlist[itemize,1]{label=\textbullet}
+  - \setlist[itemize,2]{label=--}
+  - \setlist[itemize,3]{label=-}
+output:
+  rmarkdown::pdf_document:
+      keep_tex: no
+---
 # Notes
 ## Week 2
 ### Module 1 Week 2A
 #### Probability and Random Variables
 - *Probability Theory* - important in linking *Samples* to underlying 
-  *Population* of Interest => important for *Statistical Inference*.  
+  *Population* of Interest => important for *Statistical Inference*.
+
 ##### Probability  
+
 - Values taken on by the variables are not known until they are observed. 
 - Data is composed of observations of underlying *Random Variables*.
 - *Probability Theory* provides the mathematics of this randomness.
