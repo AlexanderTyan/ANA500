@@ -98,7 +98,7 @@
   $\mu$ ) and finite variance ( $\sigma^2$ ) the distribution of the sum of X 
   and the mean of X are normally distributed.
   - $\sum X \sim N(n\mu, n\sigma^2)$
-  - $\sum \bar{X} \sim N(\mu, \frac{\sigma^2}{n})$
+  - $\bar{X} \sim N(\mu, \frac{\sigma^2}{n})$
 - Remember, random *Sampling* makes *Statistics* *Random Variables*.
   - *Random Variables* are described with a *Probability Distribution*
   - The *Probability Distribution* for a *Statistic* is called its **Sampling 
