@@ -1,17 +1,3 @@
----
-header-includes:
-  - \usepackage{enumitem}
-  - \setlistdepth{20}
-  - \renewlist{itemize}{itemize}{20}
-  - \renewlist{enumerate}{enumerate}{20}
-  - \setlist[itemize]{label=$\cdot$}
-  - \setlist[itemize,1]{label=\textbullet}
-  - \setlist[itemize,2]{label=--}
-  - \setlist[itemize,3]{label=-}
-output:
-  rmarkdown::pdf_document:
-      keep_tex: no
----
 # Notes
 ## Week 2
 ### Module 1 Week 2B
