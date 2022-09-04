@@ -71,5 +71,3 @@ damn pleases.” -- Josiah Stamp, 1st Baron Stamp
         incorrect conclusions
       - There is an infinite number of *samples* (and *statistics*) that can be 
         drawn from the same *Population* (to be discussed later).
-
-      

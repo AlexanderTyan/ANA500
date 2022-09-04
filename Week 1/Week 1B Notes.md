@@ -1,3 +1,17 @@
+---
+header-includes:
+  - \usepackage{enumitem}
+  - \setlistdepth{20}
+  - \renewlist{itemize}{itemize}{20}
+  - \renewlist{enumerate}{enumerate}{20}
+  - \setlist[itemize]{label=$\cdot$}
+  - \setlist[itemize,1]{label=\textbullet}
+  - \setlist[itemize,2]{label=--}
+  - \setlist[itemize,3]{label=-}
+output:
+  rmarkdown::pdf_document:
+      keep_tex: no
+---
 # Notes
 ## Week 1
 ### Module 1 Week 1B: Descriptive Statistics
@@ -51,7 +65,7 @@
   central or typical for data.
   - **Median** - the 50th percentile; if even number of data points, is the 
     mean between two middle values (when values are sorted in ascending order). 
-  - **Mode** - the most frequently occuring value.
+  - **Mode** - the most frequently occurring value.
   - **(Arithmetic) Mean** - most common measure of central tendency.
     - $\bar{x}$ - typically denotes *Sample Mean*
     - $\Sigma$ - summation. 
@@ -66,8 +80,8 @@
       - **Negative Skew** - i.e. left skew, the data has a long left tail.
       - **Symmetric Shape** - no skew.
   - Relationship between *Mean* and *Median*:
-    - If $\bar{x} \gt Med =>$ positive skew.
-    - If $\bar{x} \lt Med =>$ negative skew.
+    - If $\bar{x} > Med =>$ positive skew.
+    - If $\bar{x} < Med =>$ negative skew.
 - **Sample Variance** - the spread of the sample data.
   - $$s^2 = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2$$
     - $(n-1)$: Bessel's correction; allows for a more reliable estimate of 
@@ -81,7 +95,7 @@
       the mean.
     - More precisely, **Chebyshev's Inequality**: $(1 - \frac{1}{k^2})$ of a 
       variable's values (by proportion) must be within $k$ *Standard 
-      Deviations* from the mean, for $k \gt 1$; regardless of distribution.
+      Deviations* from the mean, for $k > 1$; regardless of distribution.
     - Difficult to compare variables measured in different units => 
       **Standardize** variables to *Standard Deviation* units to compare:
       - Subtract the mean from each value and divide by *Standard Deviation*:
