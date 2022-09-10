@@ -267,7 +267,7 @@ print meanbmi
 
 #### Hypothesis Test for a Single Proportion 
 - Let's test if the proportion of kids with dad at home is different from .63
-  - $H_0$ $P = .63$
+  - $H_0$: $P = .63$
   - $H_a$: $P \neq .63$
 ```
 scalar null_value = 0.63
