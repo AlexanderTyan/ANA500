@@ -35,7 +35,7 @@ a *confidence interval* for the estimated mean can be calculated. It changes wit
 - Recall that $\bar{X} \sim (\mu, \frac{\sigma^2}{n})$
   - *About 95% of all observations fall within 2 standard deviations of the mean.* I.e. about 95% of all sample means must fall within 2 *standard deviations* of $\mu$
 - E.g. suppose $\bar{X} = 290$ and $\sigma = 200$ (i.e. the *population SD* is known here) and $n = 100$
-  - *Standard deviation* for $\bar{X} = \frac{\sigma^2}{n} = \frac{200}{\sqrt{100}} = 20$
+  - *Standard deviation* for $\bar{X} = \frac{\sigma}{\sqrt{n}} = \frac{200}{\sqrt{100}} = 20$
   - 2 standard deviations $= 40$
   - 95% *confidence interval* -> $290 \pm 40 = (250, 330)$
     - *We are 95% confident the population mean falls in this interval* (In reality it might not be, but probability that it doesn't is only $5\%$).
