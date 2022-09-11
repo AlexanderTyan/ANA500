@@ -24,8 +24,8 @@ the parameter of interest, we hope it is close though.
 variable*, it is not fixed. (*Population Parameter* is fixed).
 - E.g. Back to the hotel room example. A (random) sample of data is
 collected. The sample mean is calculated. We would like to know the
-population *standard deviation* ($\sigma$), but it is often unknown. The
-sample standard deviation ($s$) can be calculated. With this information
+population *standard deviation* ( $\sigma$ ), but it is often unknown. The
+sample standard deviation ( $s$ ) can be calculated. With this information
 a *confidence interval* for the estimated mean can be calculated. It changes with the *Random Sample*.
 
 - A *confidence interval* provides a range of values it is reasonable for the
@@ -38,7 +38,7 @@ a *confidence interval* for the estimated mean can be calculated. It changes wit
   - *Standard deviation* for $\bar{X} = \frac{\sigma}{\sqrt{n}} = \frac{200}{\sqrt{100}} = 20$
   - 2 standard deviations $= 40$
   - 95% *confidence interval* -> $290 \pm 40 = (250, 330)$
-    - *We are 95% confident the population mean falls in this interval* (In reality it might not be, but probability that it doesn't is only $5\%$).
+    - *We are 95% confident the population mean falls in this interval* (In reality it might not be, but probability that it doesn't is only $5\%$ ).
 
 - *Confidence Intervals* form:
   - *Point Estimate* $\pm$ *Margin of Error*
@@ -65,7 +65,7 @@ commute time $\bar{X} = 27$ minutes and assume SD is known: $\sigma = 12$.
 
 - Problem: usually, we don't know the *Population Standard Deviation* $\sigma$
 - When *Standard Deviation* $\sigma$ is unknown: 
-  - If $n$ is large enough ($\geq 30$): can be estimated with $s$, i.e. using the sample.
+  - If $n$ is large enough ( $\geq 30$ ): can be estimated with $s$, i.e. using the sample.
   - If the sample size is small: *Normal Distribution* cannot be used b/c the actual distribution depends on the sample size (discovery by William "the Student" Gosset) => the *Student’s t-distribution* is used to calculate the confidence interval instead.
     - Until the 1970's, if $n > 30$, *Normal Distribution* is used. But today: just the the *Student T-Distribution* (thank your computer).
     - If you draw a simple random sample of size $n$ from an approximate

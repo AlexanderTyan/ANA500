@@ -20,9 +20,9 @@ remember that we are using a *random sample of data*, and therefore,
 we can make errors.
 - The approach:
   1. Set up *two conflicting hypotheses* (*Always* about the *Population Parameter* of interest, *not* the *Sample Statistic*!)
-     - **Null hypothesis ($H_0$)**: statement of no difference or no effect
+     - **Null hypothesis ( $H_0$ )**: statement of no difference or no effect
        - $H_0$ will always have $=$ or $\leq$ or $\geq$ (NK: it is most accurate for the Null to only have an "$=$" sign)
-     - **Alternative hypothesis ($H_a$)**: contradicts $H_a$
+     - **Alternative hypothesis ( $H_a$ )**: contradicts $H_a$
        - $H_a$ will always have $\neq$ or $>$ or $<$
        - **Two-Tailed Test**: $H_a$ has $\neq$
        - **Two-Tailed Test**: $H_a$ has $>$ or $<$
@@ -45,7 +45,7 @@ we can make errors.
      assumption, there is a good chance that $H_0$ is incorrect, and
      therefore, it is rejected.
      - The *sampling distribution* used for a hypothesis test is the sampling distribution *under the assumption that $H_0$ is true*.
-     - We will use a *p-value* to make our decision (reject or fail to reject $H_0$).
+     - We will use a *p-value* to make our decision (reject or fail to reject $H_0$ ).
      - A **p-value** is *the probability, under the assumption that $H_0$ is true,that another random sample would produce results as extreme or more extreme as the results obtained in the given sample.* (I.e. The $\mathbb{P}$ that the results would as adverse or more adverse to the assumption in the *Null Hypothesis*)
      - **Rule: reject Ho if p-value $< \alpha$**
        - Ideally, want to re-perform the test with new random samples.
@@ -88,18 +88,18 @@ we can make errors.
   and a sample standard deviation of 12,000.
   - This is a test about a mean and the population *standard deviation* is *unknown*, therefore, the
   appropriate distribution is the *t-distribution with 35 degrees of freedom*.
-  - If $H_0$ is true (i.e. $\mu = 100,000$), how many standard deviations is our sample result (i.e. $\bar{X} = 105,000$) from the population mean?
+  - If $H_0$ is true (i.e. $\mu = 100,000$ ), how many standard deviations is our sample result (i.e. $\bar{X} = 105,000$ ) from the population mean?
   - (Because test about a *Mean* AND have to estimate the *SD*) Test-statistic (t-stat) $= \frac{\bar{X} - \mu}{s / \sqrt{n}} = \frac{105000 - 100000}{12000 / \sqrt{36}} = \frac{5000}{2000} = 2.5$ 
-  - P-value $= 0.017$ <-area to the right of $2.5$ ($=0.086$) + area to the left of $-2.5$ ($=0.086$), because we have a *Two-Tailed Test*. Interpretation: it is very *unlikely* we would observe this difference if the *Null Hypothesis* were true =>
+  - P-value $= 0.017$ <-area to the right of $2.5$ ( $=0.086$ ) + area to the left of $-2.5$ ( $=0.086$ ), because we have a *Two-Tailed Test*. Interpretation: it is very *unlikely* we would observe this difference if the *Null Hypothesis* were true =>
   - **Rule: reject Ho if p-value $< \alpha$**
-  - $0.017 < 0.05$ => reject $H_0$ (but would *not* reject if $\alpha = 0.01$)
+  - $0.017 < 0.05$ => reject $H_0$ (but would *not* reject if $\alpha = 0.01$ )
 
 - E.g. 70% of U.S. households have internet access
   - $H_0$: $p = 0.70$  
   - $H_a$: $p \neq 0.70$  
   - Suppose we collect a random sample of 81 households and calculate a sample proportion of 0.66.
   - This is a test about a proportion, therefore, the appropriate distribution is the *normal distribution*.
-  - If $H_0$ is true (i.e. $p = 0.70$), how many standard deviations is our sample result (i.e. $p′ = 0.66$)
+  - If $H_0$ is true (i.e. $p = 0.70$ ), how many standard deviations is our sample result (i.e. $p′ = 0.66$ )
   from the population mean?
   - Test-statistic (z-stat) $= \frac{p' - p}{\sqrt{pq/n}} = \frac{0.66 - 0.70}{\sqrt{0.70 * 0.30 / 81}} = \frac{-0.04}{0.051} = −0.784$
   - p-value $= 0.43$ = $\text{Area to the left of -0.784} + \text{Area to the right of 0.784}$

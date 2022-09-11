@@ -90,7 +90,7 @@ Generated scalar dfbmi = 12756
           dfbmi =  12756.000
 ```
   - So we have $df = 12756$
-  - Calculate the *Standard Error* ($SE = \frac{SD}{\sqrt{n}}$); $n = df + 1$:
+  - Calculate the *Standard Error* ( $SE = \frac{SD}{\sqrt{n}}$ ); $n = df + 1$:
 ```
 scalar se_meanbmi = sdbmi/sqrt(dfbmi+1)
 ```
