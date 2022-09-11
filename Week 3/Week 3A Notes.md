@@ -103,5 +103,8 @@ mean $np$ and *standard deviation* $\sqrt{npq}$.
     - $z = 1.96$ because we're using the normal approximation with a 95% Confidence
     - 95% confidence interval $= 0.70 \pm 1.96 (\frac{\sqrt{1.70*0.30}}{\sqrt{400}})= 0.70 \pm 0.045 = (0.655, 0.745)$; 
   - **“Plus four rule”**:
-    - Should be used when we want confidence of $\geq 90$ percent and we have $n \geq 10$ observations. 
+    - Should be used when: 
+      - We want confidence of $\geq 90\%$  
+      AND  
+      - We have $n \geq 10$ observations. 
     - We simply pretend that we have four additional observations. Two of these observations are successes and two are failures. The new sample size, then, is $n + 4$, and the new count of successes is $x + 2$.
