@@ -73,8 +73,7 @@ commute time $\bar{X} = 27$ minutes and assume SD is known: $\sigma = 12$.
     and calculate *t-scores* $(\frac{\bar{X} - \mu}{s / \sqrt{n}})$, the t-scores follow a *Student’s t-distribution* with $(n − 1)$ *degrees of freedom* (*df*).
       - *T-Score Interpretation*: just like the *Z-Score*, measures how far $\bar{X}$ is from $\mu$.
       - $(n - 1)$ interpretation: from having to estimate the *Standard Deviation*.
-    - *Student’s t-distribution* is *symmetric*, has a mean of $0$, but with *fatter tails* than the
-    *standard normal distribution*. It *converges into the standard normal
+    - *Student’s t-distribution* is *symmetric*, has a mean of $0$, but with *fatter tails* than the *standard normal distribution*. It *converges into the standard normal
     distribution as $n$ increases*. 
 
 ##### Proportions
