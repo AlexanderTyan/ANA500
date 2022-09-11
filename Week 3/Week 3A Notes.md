@@ -106,5 +106,5 @@ mean $np$ and *standard deviation* $\sqrt{npq}$.
     - Should be used when: 
       - We want confidence of $\geq 90\%$  
       AND  
-      - We have $n \geq 10$ observations. 
+      - We have $n \ge 10$ observations. 
     - We simply pretend that we have four additional observations. Two of these observations are successes and two are failures. The new sample size, then, is $n + 4$, and the new count of successes is $x + 2$.
