@@ -60,7 +60,7 @@ $$
 - The *t-stat* is still the difference between our estimate and the value being tested (i.e. the value specified in $H_0$ ) divided by the standard error.
   - If $H_0$ is true (which is assumed) how many *standard deviations* is our estimate from the mean?
   - *t-stat* $= \frac{(\bar{X}_1 - \bar{X}_2) - (\mu_1 - \mu_2)}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}$ 
-  - *Degrees of freedom* $= \frac{(\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2})^2}{(\frac{1}{n_1 - 1}) (\frac{s_1^2}{n_1})^2 + (\frac{1}{n_1 - 1}) (\frac{s_2^2}{n_2})^2}$ 
+  - *Degrees of freedom* $= \frac{(\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2})^2}{(\frac{1}{n_1 - 1}) (\frac{s_1^2}{n_1})^2 + (\frac{1}{n_2 - 1}) (\frac{s_2^2}{n_2})^2}$ 
 
   
 
