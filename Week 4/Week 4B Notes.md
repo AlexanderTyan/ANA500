@@ -23,7 +23,7 @@ $$
     - => The *Test Statistic* $\geq 0$, *never negative*!
 
 - A Chi-squared distribution is *skewed to the right* and the skew decreases as $df$ increases.
-- A Chi-squared distribution with $df > 90$ can approximated with a *Normal Distribution*.
+- A Chi-squared distribution with $df > 90$ can be approximated with a *Normal Distribution*.
 
 
 
