@@ -214,3 +214,17 @@ $$
 
     - $\sigma_{\hat{y} - y} = \sigma \sqrt{1 + \frac{1}{n} + \frac{ (x_p - \bar{x})^2 }{ \sum_i (x_i - \bar{x})^2 } }$
 
+    
+
+- $\sigma$ is rarely known and will need to be estimated with s. 
+
+- Confidence interval for the mean value of $y$ for $x = x_p$
+
+    - $\hat{y} \pm t_{\alpha/2} * s * \sqrt{ \frac{1}{n} + \frac{ (x_p - \bar{x})^2 }{ \sum_i (x_i - \bar{x})^2 } }$
+    - $t_{\alpha/2}$ is based on $(n – 2)$ *df* 
+
+- Prediction interval for an individual value of $y$ for $x = x_p$
+
+    - $\hat{y} \pm t_{\alpha/2} * s * \sqrt{1 +  \frac{1}{n} + \frac{ (x_p - \bar{x})^2 }{ \sum_i (x_i - \bar{x})^2 } }$
+    - $t_{\alpha/2}$ is based on $(n – 2)$ *df*
+
