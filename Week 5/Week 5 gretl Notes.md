@@ -127,3 +127,5 @@ $$
             - $\text{Sum squared resid} = SSE = 64449.25$
 
             - $\text{S.E. of regression} = \sqrt{MSE} = 36.26694$
+
+            - $\text{R-squared} = .19$ -> that approximately 19% of the total variation in consumption is explained by its linear relationship with `cig_tax`

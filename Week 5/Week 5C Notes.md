@@ -39,7 +39,7 @@ $$
 
 - Testing for these assumptions: ANA 510
 
-      
+  ​    
 
 - The first 3 assumptions can be seen in this graph:
 
@@ -115,7 +115,7 @@ $$
     - Sampling Distribution used is the one under the assumption that the Null Hypothesis is True.
 
 
-      
+​      
 
 - E.g. Recall our estimates from the previous set of slides: 
 
@@ -138,9 +138,9 @@ $$
     - p-value $= 0.000013$, reject $H_0$, there *is* a *linear* relationship between $y$ and $x$
 
 
-      
+​      
 
-- Confidence interval: $\hat{\beta}_1 \pm t_{\alpha/2} * (\frac{s}{\sqrt{(x - \bar{x})^2}})$
+- Confidence interval: $\hat{\beta}_1 \pm t_{\alpha/2} * (\frac{s}{\sqrt{(x - \bar{x})^2}}) $
 
 - E.g. continued: 95% confidence interval $= 2.03 \pm 2.57 ∗ (0.137)$
 
@@ -174,7 +174,7 @@ $$
     - Testing both is redundant
 
 
-      
+​      
 
 - **The coefficient of determination (R-squared)** 
 
@@ -189,7 +189,7 @@ $$
 
 - If $x$ does provides information for predicting $y$, then $\sum_i (y_i - \hat{y})^2$ will be smaller than $\sum_i (y_i - \bar{y})^2$.
 
-      
+  ​    
 
 - We can calculate the reduction in the sum of squared deviations as a percentage of $\sum_i (y_i - \bar{y})^2$
 
@@ -205,7 +205,7 @@ $$
 
 - Perhaps a more useful interpretation: approximately $97.8\%$ of the total variation in $y$ is explained by its linear relationship with $x$.
 
-      
+  ​    
 
 - Uses of regression model: 
 
@@ -222,7 +222,7 @@ $$
 
 - The estimated mean and the predicted value of $y$ for a given $x$ value will always be the *same*, but *estimation will always have more precision than prediction*.
 
-      
+  ​    
 
 - $\hat{y} = \hat{\beta}_0 + \hat{\beta}_1 x$ is the model we use to estimate thea mean of y (i.e. $\mathbb{E}(y)$ ) and to predict an individual value of $y$. 
 
@@ -233,7 +233,7 @@ $$
 
 - The difference in the two uses has to do with accuracy. 
 
-      
+  ​    
 
 - Let $x_p$ denote the $x$ value at which we are estimating and predicting. 
 
