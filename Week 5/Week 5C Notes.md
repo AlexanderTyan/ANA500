@@ -108,7 +108,7 @@ $$
 
 - $\sigma$ is typically unknown and must be estimated with $s$, therefore the sampling distribution will usually follow a *Student’s t-distribution* (because need to estimate $\sigma$) with $n – 2$ *df* (losing 2 DF's because two parameters, Beta's are estimated). 
 
-- t-stat = $= \frac{\hat{\beta}_1 - \beta_{H_0}}{SE} = \frac{\hat{\beta}_1 - \beta_{H_0}}{\frac{s}{\sqrt{\sum (s  -  \bar{x})^2}}}$
+- t-stat = $= \frac{\hat{\beta}_1 - \beta_{H_0}}{SE} = \frac{\hat{\beta}_1 - \beta_{H_0}}{\frac{s}{\sqrt{\sum (x_i  -  \bar{x})^2}}}$
 
     - How many standard deviations the test statistic $\hat{\beta}_1$ is from the Null
 
@@ -140,7 +140,7 @@ $$
 
 ​      
 
-- Confidence interval: $\hat{\beta}_1 \pm t_{\alpha/2} * (\frac{s}{\sqrt{(x - \bar{x})^2}}) $
+- Confidence interval: $\hat{\beta}_1 \pm t_{\alpha/2} * (\frac{s}{\sqrt{(x_i - \bar{x})^2}}) $
 
 - E.g. continued: 95% confidence interval $= 2.03 \pm 2.57 ∗ (0.137)$
 
