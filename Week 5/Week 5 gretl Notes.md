@@ -23,9 +23,7 @@ $$
     - $Y$: consumption, per capita in the state
     - $X$: cigarette taxes (measured in dollars)
 
-###### Exploratory Data Analysis
-
-###### 
+###### Exploratory Data Analysis 
 
 1. ```
     gnuplot consumption cig_tax --fit=none --output=display
