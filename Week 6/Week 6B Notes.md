@@ -14,7 +14,7 @@ $$
 
 #### Multiple Linear Regression and Statistical Inference
 
-- Recall that $$ is the variance of $\epsilon$ and therefore plays an important role in assessing the utility of the estimated regression model. 
+- Recall that $\sigma^2$ is the variance of $\epsilon$ and therefore plays an important role in assessing the utility of the estimated regression model. 
 
 - $\sigma^2$ is typically unknown and therefore must be estimated with $s^2$. 
 
@@ -55,15 +55,16 @@ $$
 
 - Always a one-tailed (right-tailed) test 
 
-- A helpful alternative formula for F-stat $= \frac{R^2 / k}{(1 - R^2) / (n - (k + 1)}$
-
+- A helpful alternative formula for F-stat $= \frac{R^2 / k}{(1 - R^2) / (n - (k + 1))}$
+    
+    
     - Interpretation:
         - $R^2$ - represents linearly explained variation
         - $1 - R^2$ - represents linearly un-explained variation
         - If the ratio of explained to unexplained varation is large => the model as a whole is useful
 
 
-    
+​    
 
 - E.g. Suppose we estimate a regression model with a sample of 40 observations and 4 predictor variables. The estimated model has an R-squared $= 0.40$. 
 
