@@ -23,3 +23,5 @@ State Demographic and Policy Data.gdt
 !gnuplot_plus_estimated.png
 *.log
 !Week 6/objects/gretl_1.png
+!Week 7/objects/7*
+!Week 7/objects/gretl_[0-9].png

@@ -48,17 +48,12 @@ $$
 
         - The effect of $x_2$ on $y$ depends on the value of $x_1$
             - $\beta_2 + \beta_3 x_1$
-
-
-    
-
-    - ![7a_1](objects/7a_1.png)
+        - ![7a_1](objects/7a_1.png)
+                
 
         - To determine the *effect of the interaction term* is *statistically significant*: use the *standard T-Test*
-
+    
             - BUT: if including the interaction term in the model, don't worry about the T-Test on individual coefficients of $x_1$ and $x_2$; regardless of their individual p-values, they should stay in the model.
-
-            
 
 ##### 2nd Order Model
 
