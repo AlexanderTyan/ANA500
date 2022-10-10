@@ -56,8 +56,8 @@ $$
 - Always a one-tailed (right-tailed) test 
 
 - A helpful alternative formula for F-stat $= \frac{R^2 / k}{(1 - R^2) / (n - (k + 1))}$
-    
-    
+  
+  
     - Interpretation:
         - $R^2$ - represents linearly explained variation
         - $1 - R^2$ - represents linearly un-explained variation
@@ -140,12 +140,12 @@ $$
 
     - Can be *one-* or *two-tailed*
 
-- For example we could test if there is a linear relationship between $y$ and $x_1$). 
+- For example we could test if there is a linear relationship between $y$ and $x_1$. 
 
     - t-stat $= \frac{\hat{\beta}_1 - \beta_{H_0}}{SE_{\hat{\beta}_1}}$
         - SE not practical to be computed by hand, but same interpretation: Standard Deviation of a Sampling Distribution (recall: Sampling Distribution (used under the assumption of Null being true) is a Probability Distribution for an estimate)
 
-    - $df = n – (k + 1)$
+    - $df = n - (k + 1)$
 
 - Confidence interval for $\hat{\beta}_1 = \hat{\beta}_1 \pm t_{\alpha/2} ∗ SE_{\hat{\beta}_1}$
 

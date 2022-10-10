@@ -59,7 +59,7 @@ $$
 
 - Motivation: model non-linear relationships
 
-- **Order of the model**: the largest exponent on any of the predictor variables; **2nd order model** (*Quadratic Model*): at least on predictor variable that is squared.
+- **Order of the model**: the largest exponent on any of the predictor variables; **2nd order model** (*Quadratic Model*): at least one predictor variable that is squared.
 
 - Suppose we observe the following relationship between $x_1$ and $y$:
 
