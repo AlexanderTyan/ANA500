@@ -29,7 +29,7 @@ $$
     - These models have also proven useful when the assumption of constant variance (*Homoscedasticity*) of the error term is violated. 
 
 
-    
+​    
 
 - E.g. Multiplicative model: $y = e^{\beta_0} e^{\beta_1 x_1} e^{\beta_2 x_2} e^{\epsilon}$
 

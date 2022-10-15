@@ -68,7 +68,7 @@ $$
 
 - Following is a general overview: more to come later in the ANA program.
 
-      
+  ​    
 
 - $\mathbb{E}(y) = \frac{e^{\beta_0 + \beta_1 x_1}}{1 + e^{\beta_0 + \beta_1 x_1}} = \mathbb{P}(y = 1) = \pi$
 
@@ -92,7 +92,7 @@ $$
 
 - The standard approach is to estimate using *maximum likelihood*
 
-      
+  ​    
 
 - ![lecture_2](objects/lecture_2.png)
 
@@ -111,14 +111,14 @@ $$
 
     -  $\hat{\beta}_1 = −0.7553 → e^{-.7553} - 1 = -0.53 $
         - For a one-unit increase in $x$, the odds decrease by 53%, holding $x_2$ constant. 
-    -  $\hat{\beta}_1 = 0.33 → e^{0.33} - 1= 0.39 $
+    -  $\hat{\beta}_2 = 0.33 → e^{0.33} - 1= 0.39 $
         - For a one-unit increase in $x_2$, the odds increase by 39%, holding $x_1$ constant. 
 
 - *Marginal effects* can also be calculated which measure the change in the predicted probability that $y = 1$ from a one-unit increase in $x$.
 
 - "Odds" are of the outcome variable being $1$ (event occuring).
 
-      
+  ​    
 
 - Adequacy of the model can be tested.
 
